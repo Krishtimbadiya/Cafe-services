@@ -1,0 +1,70 @@
+.pngImg {
+    height: 100vh;
+}
+
+.pngImg img {
+    width: 100%;
+}
+
+.svgLogo {
+    top: 0;
+}
+
+.svgLogo img {
+    width: 200px;
+    margin: 80px;
+}
+
+.accountText {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    color: #000;
+}
+
+input {
+    outline: none;
+    border: 1px solid #F0A1A1;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background: #000000B2;
+    border: 1px solid #F0A1A1;
+    border-radius: 17px;
+    padding: 15px 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+label {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.checkLabel {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    border-radius: 10px !important;
+    border: none;
+}
+
+.input_box{
+    position: relative;
+    padding-bottom: 30px;
+}
+ 
+
+.validate-has-error{
+    color: red;
+}
